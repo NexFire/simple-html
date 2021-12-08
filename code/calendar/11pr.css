@@ -1,86 +1,89 @@
 /*Template made by Maximilian Tyx */
 @font-face{
-font-family:Nicholas;
-src:url(./fonts/Nicholas.ttf);
+    font-family:Nicholas;
+    src:url(./fonts/Nicholas.ttf);
 }
 @font-face{
-font-family:Sentinel;
-src:url(./fonts/Sentinel.ttf);
+    font-family:Sentinel;
+    src:url(./fonts/Sentinel.ttf);
 }
 @font-face{
-font-family:Christmas;
-src:url(./fonts/Christmas.ttf);
+    font-family:Christmas;
+    src:url(./fonts/Christmas.ttf);
 }
 @font-face{
-font-family:Nick;
-src:url(./fonts/Nickainley.ttf);
+    font-family:Nick;
+    src:url(./fonts/Nickainley.ttf);
 }
 @font-face{
-font-family:ArimaKoshi;
-src:url(./fonts/ArimaKoshi.otf);
+    font-family:ArimaKoshi;
+    src:url(./fonts/ArimaKoshi.otf);
 }
 html{
-height: 100%;
-width:100%;
-padding: 0px;
+    height: 100%;
+    width:100%;
+    padding: 0px;
 }
 body{
-height: 100%;
-width:100%;
-margin: 0px;
-display: grid;
-grid-template-rows: auto 1fr 22px;
-grid-template-columns: 100%;
+    height: 100%;
+    width:100%;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr 22px;
+    grid-template-columns: 100%;
 }
 #top{
-grid-row:1;
-grid-column:1;
-display: grid;
-height:10vw;
-grid-template-rows: 1fr auto 1fr;
-grid-template-columns: 1fr auto 1fr;
-background:#D46A6A;
-color:rgb(255,255,255);
-min-height:40px;
-font-size:4vw;
+    grid-row:1;
+    grid-column:1;
+    display: grid;
+    height:10vw;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    background:#D46A6A;
+    color:rgb(255,255,255);
+    min-height:40px;
+    font-size:80px;
 }
 #middle{
-display:grid;
-grid-template-rows:1fr;
-grid-template-columns:1fr 35vw 1fr;
-height:100%;
-width:100%;
+    display:grid;
+    grid-template-rows:1fr;
+    grid-template-columns:1fr 35vw 1fr;
+    height:100%;
+    width:100%;
 }
 #content{
-grid-row:1;
-grid-column:2;
-padding-top:0.4vw;
-padding-left:1vw;
-padding-right:1vw;
-background:#FCFCFC;
-color:rgb(0,0,0);
-border-radius:0.25vw;
+    grid-row:1;
+    grid-column:2;
+    padding-top:3vw;
+    padding-left:1vw;
+    padding-right:1vw;
+    background:#FCFCFC;
+    color:rgb(0,0,0);
+    border-radius:0.25vw;
 }
 #bottom{
-grid-column:1;
-grid-row:3;
-position:fixed;
-bottom:0vw;
-background:#252525;
-color:rgb(255,255,255);
-padding: 0px;
-width:100%;
-height:22px;
+    grid-column:1;
+    grid-row:3;
+    position:fixed;
+    bottom:0vw;
+    background:#252525;
+    color:rgb(255,255,255);
+    padding: 0px;
+    width:100%;
+    height:22px;
 }
 #fillDiv{
-display:inline-block;
-color:rgb(255,255,255);
-text-decoration: none;
-height:100%;
-width:100%;
-text-align:center;
+    display:inline-block;
+    color:rgb(255,255,255);
+    text-decoration: none;
+    height:100%;
+    width:100%;
+    text-align:center;
 }
 .centerText{
-grid-row: 2;
-grid-column: 2;
+    grid-row: 2;
+    grid-column: 2;
+}
+.hiddenText{
+    /*display: none;*/
 }
